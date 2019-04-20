@@ -5,8 +5,8 @@
    Tutorial 13
    Case Problem 2
 
-   Author: 
-   Date:   
+   Author: Angelina Stilphen
+   Date:   4.19.19
    
    Filename: dl_expenses.js
    
