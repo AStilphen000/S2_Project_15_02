@@ -81,9 +81,9 @@
          </tr>
          <tr>
             <th>Social Security Number<span>*</span></th>
-            <td colspan="2"><input type="text" name="ssn" id="ssn" required placeholder="nnn-nn-nnnn" /></td>
+            <td colspan="2"><input type="text" name="ssn" id="ssn" required placeholder="nnn-nn-nnnn" pattern="\d{3}\D\d{2}\D\d{4}" /></td>
             <th>Project<span>*</span></th>
-            <td><input type="text" name="projID" id="projID" required placeholder="PROJ-xx-ddd" pattern="PROJ\d{" /></td>
+            <td><input type="text" name="projID" id="projID" required placeholder="PROJ-xx-ddd" pattern="PROJ\D[a-z]\D\d{3}" /></td>
          </tr>
       </table>
 

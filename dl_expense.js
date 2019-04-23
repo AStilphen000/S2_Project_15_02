@@ -31,7 +31,14 @@
       
 */
 
-
+window.addEventListener("load", function() {
+      // 
+      var changingCells = document.querySelectorAll('input[class="sum"]');
+      for (var i = 0; i < changingCells.length; i++) {
+            changingCells[i].onchange = calcExp;
+      }
+      document.getElementById("submitButton").onclick = validateSummary;
+}); 
 
 
 
