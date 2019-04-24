@@ -40,9 +40,19 @@ window.addEventListener("load", function() {
       document.getElementById("submitButton").onclick = validateSummary;
 }); 
 
+function validateSummary() {
+      var validateSummary = document.getElementById("summary");
+      if (validateSummary.validity.valueMissing) {
+            validateSummary.setCustomValidity("You must include a summary of thr trip in your report");
+      } else {
+            validateSummary.setCustomValidity("");
+      }
+}
 
-
-
+function calcClass(sumClass) {
+      var sumFields = document.getElementsByClassName(sumClass);
+      var subTotal = document.getElementById()
+}
 
 
 function formatNumber(val, decimals) {
